@@ -1,0 +1,51 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  color: white;
+  text-align: center;
+  padding: 0;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #1f1f1f;
+  font-size: 18px;
+}
+.menu-btn {
+  background: none;
+  color: white;
+  border: none;
+  font-size: 24px;
+}
+.profile-card {
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: rgba(255,255,255,0.05);
+  width: 80%;
+}
+.role {
+  color: #00ffff;
+}
+.button-group button {
+  margin: 10px;
+  padding: 15px 25px;
+  font-size: 16px;
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+.button-group button:hover {
+  background-color: #008c9e;
+}
+canvas {
+  max-width: 90%;
+  margin: 30px auto;
+  display: block;
+}
